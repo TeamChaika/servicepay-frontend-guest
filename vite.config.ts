@@ -14,7 +14,11 @@ export default defineConfig({
     port: 3001,
     watch: {
       usePolling: true
-    }
+    },
+    allowedHosts: [
+      'teamchaika-servicepay-frontend-guest-6809.twc1.net',
+      'guest.chaika.team'
+    ]
   }
 })
 
