@@ -154,7 +154,7 @@ const loading = ref(true)
 const error = ref('')
 const deposit = ref<any>(null)
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+const API_URL = import.meta.env.VITE_API_URL || 'https://sp.chaika.team'
 
 onMounted(async () => {
   const depositId = route.params.id
